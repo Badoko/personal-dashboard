@@ -2,7 +2,7 @@ const taskInput = document.getElementById("taskInput");
 const addTaskBtn = document.getElementById("addTaskBtn");
 const taskList = document.getElementById("taskList");
 
-const API_URL = "http://localhost:3000/tasks";
+const API_URL = "https://personal-dashboard-backend-rmha.onrender.com/tasks";
 
 // Fetch tasks from backend
 async function fetchTasks() {
